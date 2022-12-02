@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/our-tours-app/static/css/main.3e972cb0.css",
-    "main.js": "/our-tours-app/static/js/main.bcee2eea.js",
+    "main.js": "/our-tours-app/static/js/main.39f3a145.js",
     "static/js/787.cdf5d6e0.chunk.js": "/our-tours-app/static/js/787.cdf5d6e0.chunk.js",
     "static/media/vienna.jpeg": "/our-tours-app/static/media/vienna.16f56b18a8678fca0eef.jpeg",
     "static/media/paris.jpg": "/our-tours-app/static/media/paris.07e7893cf5d0ba964805.jpg",
@@ -10,11 +10,11 @@
     "static/media/italy.jpeg": "/our-tours-app/static/media/italy.d21a7b99e928c84c00e9.jpeg",
     "index.html": "/our-tours-app/index.html",
     "main.3e972cb0.css.map": "/our-tours-app/static/css/main.3e972cb0.css.map",
-    "main.bcee2eea.js.map": "/our-tours-app/static/js/main.bcee2eea.js.map",
+    "main.39f3a145.js.map": "/our-tours-app/static/js/main.39f3a145.js.map",
     "787.cdf5d6e0.chunk.js.map": "/our-tours-app/static/js/787.cdf5d6e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e972cb0.css",
-    "static/js/main.bcee2eea.js"
+    "static/js/main.39f3a145.js"
   ]
 }
