@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import tourData from './tourData';
+import Section from './components/Section';
+import Header from './components/Header';
 
 function App() {
+
+  const [tours, setTours] = useState(tourData);
+
+  const deleteTour = (id) => {
+    setTours(tours.filter((tour) => tour.id !== id))
+  }
+
+  const refreshPage = () => {
+    
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header tours={tours} onRefresh={refreshPage}/>
+      <Section tours={tours} onDelete={deleteTour}/>
     </div>
   );
 }
