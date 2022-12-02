@@ -13,8 +13,8 @@ function App() {
   }
 
   const refreshPage = () => {
-    
-  }
+    setTours([...tourData])
+  };
 
   return (
     <div className="app">

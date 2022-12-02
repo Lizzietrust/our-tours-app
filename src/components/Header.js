@@ -20,6 +20,3 @@ const Header = ({tours, onRefresh}) => {
 
 export default Header
 
-/*<h1>{tours.length > 0 ? "Our Tours" : "No Tours Left" }</h1>
-      {tours.length === 0 && <button>Refresh</button>}
-      <div className='line'></div>*/
